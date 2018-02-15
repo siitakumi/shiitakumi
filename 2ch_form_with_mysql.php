@@ -1,7 +1,7 @@
 <?php
 try{
 	//DBへ接続
-	$dsn = 'mysql:dbname=　;host=localhost';
+	$dsn = 'データベース名';
 	$user = 'ユーザ名';
 	$pass = 'パスワード';
 	$pdo = new PDO($dsn,$user,$pass,array(PDO::ATTR_EMULATE_PREPARES=>false));
